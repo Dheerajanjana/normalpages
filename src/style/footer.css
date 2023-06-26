@@ -1,0 +1,47 @@
+footer{
+    background-color: azure;
+    
+    width: 100%;
+    color: blueviolet;
+    display: grid;
+    grid-template-columns:4fr 1fr;
+    padding: 2rem;
+}
+footer .ftr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer .ftr h1{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+footer .ftr p{
+    font-weight: 900;
+    font-size: 1.2rem;
+
+}
+ h5{
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link a{
+    margin: 4px;
+}
+a{
+    color: brown;
+    font-weight: 900;
+    font-size: 1rem;
+    
+}
+a:hover{
+    color: rgb(25, 165, 51);
+}
